@@ -1,2 +1,2 @@
 # app-ios
-Internal app for iOS devices
+Organization's internal app for iOS devices
