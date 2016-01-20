@@ -11,7 +11,7 @@ import UIKit
 class Example1ViewController: UIViewController {
    
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    @IBOutlet weak var homeButton: UIBarButtonItem!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
