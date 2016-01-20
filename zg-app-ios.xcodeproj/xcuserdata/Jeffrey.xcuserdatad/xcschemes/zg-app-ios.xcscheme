@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00DD9FE31C4E10880071A570"
-               BuildableName = "app-ios.app"
-               BlueprintName = "app-ios"
-               ReferencedContainer = "container:app-ios.xcodeproj">
+               BuildableName = "zg-app-ios.app"
+               BlueprintName = "zg-app-ios"
+               ReferencedContainer = "container:zg-app-ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00DD9FE31C4E10880071A570"
-            BuildableName = "app-ios.app"
-            BlueprintName = "app-ios"
-            ReferencedContainer = "container:app-ios.xcodeproj">
+            BuildableName = "zg-app-ios.app"
+            BlueprintName = "zg-app-ios"
+            ReferencedContainer = "container:zg-app-ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00DD9FE31C4E10880071A570"
-            BuildableName = "app-ios.app"
-            BlueprintName = "app-ios"
-            ReferencedContainer = "container:app-ios.xcodeproj">
+            BuildableName = "zg-app-ios.app"
+            BlueprintName = "zg-app-ios"
+            ReferencedContainer = "container:zg-app-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00DD9FE31C4E10880071A570"
-            BuildableName = "app-ios.app"
-            BlueprintName = "app-ios"
-            ReferencedContainer = "container:app-ios.xcodeproj">
+            BuildableName = "zg-app-ios.app"
+            BlueprintName = "zg-app-ios"
+            ReferencedContainer = "container:zg-app-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
