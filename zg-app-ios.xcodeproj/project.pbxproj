@@ -56,7 +56,7 @@
 		00DD9FDB1C4E10880071A570 = {
 			isa = PBXGroup;
 			children = (
-				00DD9FE61C4E10880071A570 /* app-ios */,
+				00DD9FE61C4E10880071A570 /* zg-app-ios */,
 				00DD9FE51C4E10880071A570 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00DD9FE61C4E10880071A570 /* app-ios */ = {
+		00DD9FE61C4E10880071A570 /* zg-app-ios */ = {
 			isa = PBXGroup;
 			children = (
 				00DD9FE71C4E10880071A570 /* AppDelegate.swift */,
@@ -83,7 +83,6 @@
 				00FDE35F1C4F6D68003C9A4F /* SWRevealViewController */,
 				00920A191C4E11220020AB9E /* Supporting Files */,
 			);
-			name = "app-ios";
 			path = "zg-app-ios";
 			sourceTree = "<group>";
 		};
@@ -113,7 +112,7 @@
 			dependencies = (
 			);
 			name = "zg-app-ios";
-			productName = "app-ios";
+			productName = "zg-app-ios";
 			productReference = 00DD9FE41C4E10880071A570 /* zg-app-ios.app */;
 			productType = "com.apple.product-type.application";
 		};

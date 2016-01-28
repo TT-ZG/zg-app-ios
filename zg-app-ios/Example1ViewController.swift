@@ -1,6 +1,6 @@
 //
 //  Example1ViewController.swift
-//  app-ios
+//  zg-app-ios
 //
 //  Created by Jeffrey McLemore on 1/19/16.
 //  Copyright © 2016 TT-ZG. All rights reserved.
