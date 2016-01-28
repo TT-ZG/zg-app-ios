@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00920A1D1C4E117E0020AB9E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00920A1B1C4E117E0020AB9E /* SWRevealViewController.m */; };
 		00920A231C4E211A0020AB9E /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00920A221C4E211A0020AB9E /* Example1ViewController.swift */; };
 		00920A251C4E23D10020AB9E /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00920A241C4E23D10020AB9E /* Example2ViewController.swift */; };
 		00920A271C4E27FE0020AB9E /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00920A261C4E27FE0020AB9E /* Tab2ViewController.swift */; };
@@ -16,22 +15,23 @@
 		00DD9FED1C4E10880071A570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DD9FEB1C4E10880071A570 /* Main.storyboard */; };
 		00DD9FEF1C4E10880071A570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DD9FEE1C4E10880071A570 /* Assets.xcassets */; };
 		00DD9FF21C4E10880071A570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DD9FF01C4E10880071A570 /* LaunchScreen.storyboard */; };
+		00FDE3651C4F6E00003C9A4F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FDE3641C4F6E00003C9A4F /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00920A1A1C4E117E0020AB9E /* app-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-ios-Bridging-Header.h"; sourceTree = "<group>"; };
-		00920A1B1C4E117E0020AB9E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		00920A1C1C4E117E0020AB9E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		00920A221C4E211A0020AB9E /* Example1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
 		00920A241C4E23D10020AB9E /* Example2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
 		00920A261C4E27FE0020AB9E /* Tab2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 		00920A281C4E28810020AB9E /* Tab1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
-		00DD9FE41C4E10880071A570 /* app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DD9FE41C4E10880071A570 /* zg-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zg-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DD9FE71C4E10880071A570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DD9FEC1C4E10880071A570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00DD9FEE1C4E10880071A570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DD9FF11C4E10880071A570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DD9FF31C4E10880071A570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FDE3631C4F6E00003C9A4F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealController/SWRevealViewController.h; sourceTree = "<group>"; };
+		00FDE3641C4F6E00003C9A4F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealController/SWRevealViewController.m; sourceTree = "<group>"; };
+		00FDE3661C4F6F57003C9A4F /* zg-app-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "zg-app-ios-Bridging-Header.h"; path = "SWRevealController/zg-app-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +48,7 @@
 		00920A191C4E11220020AB9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00920A1B1C4E117E0020AB9E /* SWRevealViewController.m */,
-				00920A1C1C4E117E0020AB9E /* SWRevealViewController.h */,
 				00DD9FF31C4E10880071A570 /* Info.plist */,
-				00920A1A1C4E117E0020AB9E /* app-ios-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -59,7 +56,7 @@
 		00DD9FDB1C4E10880071A570 = {
 			isa = PBXGroup;
 			children = (
-				00DD9FE61C4E10880071A570 /* app-ios */,
+				00DD9FE61C4E10880071A570 /* zg-app-ios */,
 				00DD9FE51C4E10880071A570 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +64,12 @@
 		00DD9FE51C4E10880071A570 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00DD9FE41C4E10880071A570 /* app-ios.app */,
+				00DD9FE41C4E10880071A570 /* zg-app-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00DD9FE61C4E10880071A570 /* app-ios */ = {
+		00DD9FE61C4E10880071A570 /* zg-app-ios */ = {
 			isa = PBXGroup;
 			children = (
 				00DD9FE71C4E10880071A570 /* AppDelegate.swift */,
@@ -83,17 +80,28 @@
 				00920A261C4E27FE0020AB9E /* Tab2ViewController.swift */,
 				00DD9FEE1C4E10880071A570 /* Assets.xcassets */,
 				00DD9FF01C4E10880071A570 /* LaunchScreen.storyboard */,
+				00FDE35F1C4F6D68003C9A4F /* SWRevealViewController */,
 				00920A191C4E11220020AB9E /* Supporting Files */,
 			);
-			path = "app-ios";
+			path = "zg-app-ios";
+			sourceTree = "<group>";
+		};
+		00FDE35F1C4F6D68003C9A4F /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00FDE3631C4F6E00003C9A4F /* SWRevealViewController.h */,
+				00FDE3641C4F6E00003C9A4F /* SWRevealViewController.m */,
+				00FDE3661C4F6F57003C9A4F /* zg-app-ios-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00DD9FE31C4E10880071A570 /* app-ios */ = {
+		00DD9FE31C4E10880071A570 /* zg-app-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00DD9FF61C4E10880071A570 /* Build configuration list for PBXNativeTarget "app-ios" */;
+			buildConfigurationList = 00DD9FF61C4E10880071A570 /* Build configuration list for PBXNativeTarget "zg-app-ios" */;
 			buildPhases = (
 				00DD9FE01C4E10880071A570 /* Sources */,
 				00DD9FE11C4E10880071A570 /* Frameworks */,
@@ -103,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = "app-ios";
-			productName = "app-ios";
-			productReference = 00DD9FE41C4E10880071A570 /* app-ios.app */;
+			name = "zg-app-ios";
+			productName = "zg-app-ios";
+			productReference = 00DD9FE41C4E10880071A570 /* zg-app-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00DD9FDF1C4E10880071A570 /* Build configuration list for PBXProject "app-ios" */;
+			buildConfigurationList = 00DD9FDF1C4E10880071A570 /* Build configuration list for PBXProject "zg-app-ios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00DD9FE31C4E10880071A570 /* app-ios */,
+				00DD9FE31C4E10880071A570 /* zg-app-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -163,9 +171,9 @@
 				00920A291C4E28810020AB9E /* Tab1ViewController.swift in Sources */,
 				00DD9FE81C4E10880071A570 /* AppDelegate.swift in Sources */,
 				00920A251C4E23D10020AB9E /* Example2ViewController.swift in Sources */,
-				00920A1D1C4E117E0020AB9E /* SWRevealViewController.m in Sources */,
 				00920A231C4E211A0020AB9E /* Example1ViewController.swift in Sources */,
 				00920A271C4E27FE0020AB9E /* Tab2ViewController.swift in Sources */,
+				00FDE3651C4F6E00003C9A4F /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,12 +287,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "app-ios/Info.plist";
+				INFOPLIST_FILE = "zg-app-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jm-mp.app-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm-mp.zg-app-ios";
+				PRODUCT_NAME = "zg-app-ios";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "app-ios/app-ios-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "zg-app-ios/SWRevealController/zg-app-ios-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -296,19 +304,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "app-ios/Info.plist";
+				INFOPLIST_FILE = "zg-app-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jm-mp.app-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm-mp.zg-app-ios";
+				PRODUCT_NAME = "zg-app-ios";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "app-ios/app-ios-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "zg-app-ios/SWRevealController/zg-app-ios-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00DD9FDF1C4E10880071A570 /* Build configuration list for PBXProject "app-ios" */ = {
+		00DD9FDF1C4E10880071A570 /* Build configuration list for PBXProject "zg-app-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00DD9FF41C4E10880071A570 /* Debug */,
@@ -317,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00DD9FF61C4E10880071A570 /* Build configuration list for PBXNativeTarget "app-ios" */ = {
+		00DD9FF61C4E10880071A570 /* Build configuration list for PBXNativeTarget "zg-app-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00DD9FF71C4E10880071A570 /* Debug */,

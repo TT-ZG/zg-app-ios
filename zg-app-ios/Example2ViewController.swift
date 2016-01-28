@@ -1,6 +1,6 @@
 //
-//  Example1ViewController.swift
-//  app-ios
+//  Example2ViewController.swift
+//  zg-app-ios
 //
 //  Created by Jeffrey McLemore on 1/19/16.
 //  Copyright © 2016 TT-ZG. All rights reserved.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class Example1ViewController: UIViewController {
-   
+class Example2ViewController: UIViewController {
+
+ 
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class Example1ViewController: UIViewController {
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

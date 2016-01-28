@@ -1,6 +1,6 @@
 //
-//  Tab1ViewController.swift
-//  app-ios
+//  Example1ViewController.swift
+//  zg-app-ios
 //
 //  Created by Jeffrey McLemore on 1/19/16.
 //  Copyright © 2016 TT-ZG. All rights reserved.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class Tab1ViewController: UIViewController {
-
+class Example1ViewController: UIViewController {
+   
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         //See http://www.appcoda.com/sidebar-menu-swift/ for help
         //Built in functions for  SWRevealViewController
         if self.revealViewController() != nil {
@@ -28,8 +29,6 @@ class Tab1ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
     
 
     /*
