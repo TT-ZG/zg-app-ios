@@ -1,6 +1,6 @@
 //
-//  Tab2ViewController.swift
-//  app-ios
+//  Tab1ViewController.swift
+//  zg-app-ios
 //
 //  Created by Jeffrey McLemore on 1/19/16.
 //  Copyright © 2016 TT-ZG. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Tab2ViewController: UIViewController {
+class Tab1ViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
@@ -28,6 +28,8 @@ class Tab2ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
     
 
     /*
