@@ -1,6 +1,6 @@
 //
-//  Example2ViewController.swift
-//  app-ios
+//  Tab2ViewController.swift
+//  zg-app-ios
 //
 //  Created by Jeffrey McLemore on 1/19/16.
 //  Copyright © 2016 TT-ZG. All rights reserved.
@@ -8,14 +8,13 @@
 
 import UIKit
 
-class Example2ViewController: UIViewController {
+class Tab2ViewController: UIViewController {
 
- 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         //See http://www.appcoda.com/sidebar-menu-swift/ for help
         //Built in functions for  SWRevealViewController
         if self.revealViewController() != nil {
@@ -24,7 +23,7 @@ class Example2ViewController: UIViewController {
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
